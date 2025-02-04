@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  gap: 19px;
+}
+.logo {
+  margin-right: 172px;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  padding: 0;
+  margin: 0;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  transition: font-weight 0.2s ease-in-out;
+}
+.nav-list li a:hover {
+  font-weight: bold;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu li {
+  padding: 5px 20px;
+}
+.dropdown-menu li a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.donate-btn {
+  background-color: #FBC500;
+  border-radius: 6px;
+  padding: 6px 10px;
+  width: 151px;
+  height: 36px;
+  cursor: pointer;
+  border: none;
+}

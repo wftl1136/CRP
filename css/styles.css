@@ -74,3 +74,81 @@ body {
   cursor: pointer;
   border: none;
 }
+
+.hero-section {
+  background-image:linear-gradient(70deg, #1f378c 13.5%, rgba(42, 68, 162, 0.7) 58%, rgba(42, 68, 162, 0.2) 93.07%), url(../img/Rectangle2.jpg);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+ mix-blend-mode: multiply;
+  width: 1447px;
+ height: 754px;
+ margin: auto;
+}
+
+.social-list {
+  width: 28px;
+ height: 28px; 
+ display: flex;
+ text-decoration: none;
+ list-style: none;
+}
+
+.social-icon {
+  fill: #FFFFFF;
+}
+
+.hero-div-info {
+  margin-top: 105.58px;
+  margin-bottom: 38px;
+}
+
+.hero-inform {
+font-weight: 900;
+font-size: 62px;
+line-height: 132%;
+text-transform: capitalize;
+color: #f4f7fd;
+margin-left: 133px;
+margin-bottom: 38px;
+}
+
+.hero-p {
+font-weight: 400;
+font-size: 30px;
+line-height: 140%;
+text-transform: capitalize;
+color: #fff;
+margin-left: 133px;
+}
+
+.button-us {
+  border-radius: 6px;
+padding: 6px 10px;
+width: 151px;
+height: 41px;
+cursor: pointer;
+background:#fbc500;
+border: none;
+margin-left: 133px;
+margin-right: 24px;
+}
+
+.button-us:hover,
+.button-us:focus {
+  background:#cca300;
+  border: none;
+}
+
+.button-more {
+border-radius: 6px;
+padding: 6px 10px;
+width: 151px;
+height: 41px;
+cursor: pointer;
+border-color: #fcc13c;
+
+}
+.button-more:hover,
+.button-more:focus {
+  background:#cca300;
+  border: none;
+}
